@@ -1,0 +1,20 @@
+apiVersion: v1alpha1
+kind: Setting
+metadata:
+  name: gravity-power-settings
+spec:
+  forms:
+    - group: basic
+      label: 通用设置
+      formSchema:
+        - $formkit: text
+          label: GitHub Token
+          name: githubToken
+          validation: required
+          value: "GitHub Token"
+          help: "填入你的GitHub Token（需要能获取你Public仓库信息的能力），用于请求GitHub API GraphQL"
+        - $formkit: text
+          label: 和风天气私钥
+          name: qWeatherPrivateKey
+          help: "填入你的和风天气应用私钥，用于请求和风天气API"
+          validation: required

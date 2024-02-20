@@ -9,11 +9,11 @@ spec:
     name: DioxideCN
     website: https://dioxide-cn.ink/
   logo: https://dioxide-cn.ink/upload/gravity-logo.png
-  homepage: https://github.com/halo-dev/plugin-starter
+  homepage: https://github.com/DioxideCN/plugin-gravity-power
   displayName: "Gravity Power"
   description: "Gravity主题的扩展插件"
   settingName: gravity-power-settings
   configMapName: gravity-power-configMap
   license:
     - name: "GPL-3.0"
-      url: "https://github.com/halo-dev/plugin-starter/blob/main/LICENSE"
+      url: "https://github.com/DioxideCN/plugin-gravity-power/LICENSE"
